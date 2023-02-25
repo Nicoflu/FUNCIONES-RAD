@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>RAD</title>
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@1&f[]=hoover@1&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<header>
+
+  <img src="https://images.unsplash.com/photo-1669170756661-93b6713d6dab?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2Njk2ODEyNDA&ixlib=rb-4.0.3&q=80" alt=""/>
+        <h1>FUNCIONES</h1>
+  <p>RAD: "Rapido Aprendisaje Dinamico"</p>
+    </header>
+
+<div class="page-content">
+
+
+   <p> Anteriormente en el Manual de Iniciación a la programación quisimos presentar un concepto como la Programación estructurada, que es un paradigma de la programación. Era interesante abordarlo para que supiésemos de dónde salen las funciones y por qué son tan relevantes en la evolución de la programación. </p>
+
+    <h3> ¿QUE ES? </h3>
+
+    <p> Las funciones, también conocidas como subrutinas o procedimientos, son bloques de código a los que se les asigna un nombre. En programación, una función es una sección de un programa que calcula un valor de manera independiente al resto del programa y mediante el nombre con el que hemos etiquetado a la función podemos más adelante invocarla, todas las veces que sea necesario, de modo que se ejecutará el bloque de sentencias que contiene. </p>
+
+  
+   <p>
+Una función tiene tres componentes importantes:
+<br>
+<br>
+-Los parámetros, que son los valores que recibe la función como entrada.
+<br>
+<br>
+-El código de la función, que son las operaciones que hace la función.
+<br>
+<br>
+-El resultado (o valor de retorno), que es el valor final que entrega la función.
+ </p>
+
+
+   <h3> ¿PARA QUE SIRVE? </h3>
+
+
+    <p> Una función la puedes invocar todas las veces que necesites, y esto permite la reutilización de un código. Incluso, una vez que escribes un código dentro de una función, te lo podrías llevar a muchos otros programas para poder reutilizarlo de manera recurrente a lo largo de muchas aplicaciones. </p>
+
+
+  <h3> ¿COMO FUNCIONA? </h3>
+
+
+  <p> En Javascript, y en muchos otros lenguajes, una función se define con la palabra "function" seguida del nombre de la función. Despues se ponen unos paréntesis y luego abrimos y cerramos llaves. Dentro de las llaves colocamos el código que pertenece a esa función, es decir, la estructura secuencial de instrucciones, con las estructuras como condicionales o ciclos que has aprendido. </p>
+
+
+    <h4> 
+function nombreDeLaFuncion()  { </h4> 
+<p>
+  // código de la funcion
+<br>
+}
+</p>
+
+
+  <h3> Como invocar una función </h3>
+
+
+  <p> Una vez que tenemos esta función definida en el programa probablemente la querramos invocar, para lo que usamos el propio nombre de la función y los paréntesis de apertura y cierre. Una vez invocado la función, lo que pasara es que el codigo ira a la función que invocaste y leera y ejecutara las lineas de código que esten dentro de las llaves. </p>
+
+
+  <p> nombreDeLaFuncion()  // eso invoca la función, con lo que se ejecutará el código que tenga dentro. </p>
+
+
+  <h3> Parámetros de las funciones </h3>
+
+
+  <p> Las funciones a veces necesitan recibir datos para poder ejecutarse. Las funciones pueden recibir cualquier número de parámetros y se colocan entre los paréntesis en la definición de la función. </p>
+
+
+  <h4> function validarEmail(email) { </h4>
+  <p>
+    // Aquí realizaríamos las acciones necesarias para verificar si un email es válido o no
+<br>
+}
+ </p>
+
+  <p> En este caso, entre paréntesis hemos colocado "email". Ese es el parámetro de la función. Dentro de la función se conocerá ese identificador "email" que contendrá la dirección que se debe validar. </p>
+
+
+  <p> Al invocar a la función tenemos que enviar los argumentos con datos que necesitan para trabajar. </p>
+
+
+  <p> validarEmail("jesusmartinez@gmail.com"); </p>
+
+
+  <h3> INVOCAR </h3>
+
+
+  <p> Para invocar la función tendremos que enviarle los argumentos de los dos parámetros que ha definido, entre los paréntesis. </p>
+
+
+  <p> let resultado = sumar(4, 6); </p>
+
+
+
+</div>
+  <script  src="./script.js"></script>
+
+</body>
+</html>
